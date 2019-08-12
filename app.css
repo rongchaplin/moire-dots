@@ -6,12 +6,18 @@ body, html {
     padding: 0;
     width: 100%;
 }
-h3 {
+a, h3, p {
+    color: white;
+}
+p, h3 {
+    display: inline-block;
     margin: 0;
+}
+a, p {
+    margin-left: 5px;
 }
 .bar {
     background-color: black;
-    color: white;
     height: 3%;
     padding: 1%;
     position: fixed;

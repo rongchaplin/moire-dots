@@ -1,0 +1,40 @@
+body, html {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+h3 {
+    margin: 0;
+}
+.bar {
+    background-color: black;
+    color: white;
+    height: 3%;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.bottom {
+    bottom: 0;
+}
+.box {
+    background-color: black;
+    height: 3px;
+    position: absolute;
+    width: 3px;
+}
+.canvas {
+    height: 102%;
+    left: -2%;
+    overflow: hidden;
+    position: absolute;
+    top: 1%;
+    width: 104%;
+}
+.top {
+    top: 0;
+}
